@@ -21,14 +21,15 @@ dataset_cleaned = dataset.dropna()
 print(dataset_cleaned.head())
 
 
-# ## Task 2: Basic Data analysis
-# # Compute summary statistics for numerical columns
-# print(dataset.describe())
+## Task 2: Basic Data analysis
+# Compute summary statistics for numerical columns
+print(dataset.describe())
 
-# # Group by the categorical column (e.g., 'species') and compute the mean of the numerical columns
-# grouped = dataset.groupby('species').mean()
+# Group by the categorical column (e.g., 'species') and compute the mean of the numerical columns
+grouped = dataset.groupby('species').mean()
 
-# # Show the result
-# print(grouped)
+# Show the result
+print(grouped)
 
+## Task 3: Data Visualization
 
